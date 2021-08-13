@@ -7,9 +7,9 @@ CJK ?= -V CJKmainfont:思源宋体 -V CJKoptions:BoldFont=Source\ Han\ Serif\ SC
 all: ctexbook elegantbook
 
 ctexbook:
-        panbook book -V cover:$(COVER) -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
+    panbook book -V cover:$(COVER) -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
 elegantbook:
-        panbook book --style=elegantbook -V cover:images/cover.png -V logo:images/logo.png -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
+    panbook book --style=elegantbook -V cover:images/cover.png -V logo:images/logo.png -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
 
 clean:
-        panbook clean	
+    panbook clean	
