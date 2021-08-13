@@ -1,4 +1,4 @@
-# 前言
+# 前言 {.unnumbered}
 
 Linux® is an open source operating system developed by people from all over the world. The 
 source code is freely available and can be used under the GNU General Public License. The 
@@ -29,7 +29,7 @@ were executed on Red Hat and Novell SUSE Linux kernel 2.6 systems running on IBM
 System x™ servers and IBM System z™ servers. However, the information in this paper 
 should be helpful for all Linux hardware platforms
 
-## How this paper is structured
+## How this paper is structured {.unnumbered}
 
 To help those of you who are new to Linux or performance tuning get started quickly, we have 
 structured this book the following way:
@@ -47,7 +47,7 @@ With the basic knowledge of how the operating system works and how to use perfor
 measurement utilities, you are ready to explore the various performance tweaks available 
 in the Linux operating system.
 
-## The team that wrote this paper
+## The team that wrote this paper {.unnumbered}
 
 Eduardo Ciliendo is an Advisory IT Specialist working as a performance specialist on 
 IBM Mainframe Systems in IBM Switzerland. He has more than 10 years of experience in 
