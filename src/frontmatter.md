@@ -19,7 +19,7 @@ IBM® 认为 Linux 是一种适用于在 IBM 系统上运行的企业级应用�
 ## 本书作者 {.unnumbered}
 本书是由来自 International Technical Support Organization, Raleigh Center 的世界各地的专家团队编写的。
 
-![写作团队](images/the-team.jpg){width=90%}
+![写作团队](images/the-team.jpg)
 
 **Eduardo Ciliendo** 是一名咨询 IT 专家，在 IBM 瑞士公司担任 IBM Mainframe Systems 的性能专家。他在计算机科学方面有 10 多年的经验。Eddy 在苏黎世大学学习计算机与商业科学，并持有日本学文凭。Eddy 是 zChampion 团队的一员，拥有包括 RHCE 头衔在内的多项 IT 认证。作为 IBM System z™ 的系统工程师，他致力于 z/OS® 和 System z 的 Linux 的容量规划和系统性能。Eddy 撰写了一些关于系统性能和 Linux 的出版物。
 
@@ -29,18 +29,22 @@ IBM® 认为 Linux 是一种适用于在 IBM 系统上运行的企业级应用�
 
 还要感谢以下人员对这个项目的贡献：
 
-Margaret Ticknor
-Carolyn Briscoe
+- Margaret Ticknor
+- Carolyn Briscoe
+
 International Technical Support Organization, Raleigh Center
 
-Roy Costa
-Michael B Schwartz
-Frieder Hamm
+- Roy Costa
+- Michael B Schwartz
+- Frieder Hamm
+
 International Technical Support Organization, Poughkeepsie Center
 
-Christian Ehrhardt
-Martin Kammerer
+- Christian Ehrhardt
+- Martin Kammerer
+
 IBM Böblingen, Germany
 
-Erwan Auffret
+- Erwan Auffret
+
 IBM France
