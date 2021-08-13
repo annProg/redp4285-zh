@@ -9,7 +9,7 @@ all: ctexbook elegantbook
 ctexbook:
 	panbook book -V cover:$(COVER) -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
 elegantbook:
-	panbook book --style=elegantbook -V cover:images/cover.png -V logo:images/logo.png -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
+	panbook book --style=elegantbook -V cover:images/cover.jpg -V logo:images/logo.png -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK)
 
 clean:
 	panbook clean	
