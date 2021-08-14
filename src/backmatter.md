@@ -1,200 +1,287 @@
 # 缩略词表
 
-:::::::::::::: {.columns}
-::: {.column width="48%"}
 ACK
 :    acknowledgment character
+
 ACPI
 :    Advanced Configuration and Power Interface
+
 AIX
 :    Advanced Interactive eXecutive
+
 API
 :    application programming interface
+
 ATA
 :    AT Attachment
+
 AVC
 :    Access Vector Cache
+
 BDP
 :    bandwidth delay product
+
 BSD
 :    Berkeley Software Distribution
+
 BSS
 :    block storage segment
+
 CEC
 :    central electronics complex
+
 CFQ
 :    Complete Fair Queuing
+
 CPU
 :    central processing unit
+
 CSV
 :    comma separated values
+
 CUPS
 :    Common UNIX Printing System
+
 DF
 :    decision federator
+
 DMA
 :    direct memory access
+
 DNAT
 :    dynamic network address translation
+
 DNS
 :    Domain Name System
+
 DS
 :    directory services
+
 FAT
 :    file allocation table
+
 FIFO
 :    first-in-first-out
+
 FQDN
 :    fully qualified domain name
+
 FS
 :    fibre-channel service
+
 FTP
 :    File Transfer Protocol
+
 GNU
 :    GNU’s Not Unix
+
 GPL
 :    general public license
+
 GRUB
 :    grand unified bootloader
+
 GUI
 :    Graphical User Interface
+
 HBA
 :    host bus adapter
+
 HPC
 :    high performance computing
+
 HTML
 :    Hypertext Markup Language
+
 HTTP
 :    Hypertext Transfer Protocol
+
 IBM
 :    International Business Machines Corporation
+
 ICMP
 :    Internet Control Message Protocol
+
 IDE
 :    integrated drive electronics
+
 IP
 :    Internet Protocol
+
 IRC
 :    interregion communication
+
 IRQ
 :    interrupt request
+
 ISV
 :    independent software vendor
+
 ITSO
 :    International Technical Support Organization
-:::
-::: {.column width="48%"}
+
 JFS
 :    Journal File System
+
 KDE
 :    K Desktop Environment
+
 LAN
 :    local area network
+
 LDAP
 :    Lightweight Directory Access Protocol
+
 LIFO
 :    last-in first-out
+
 LRU
 :    Least Recently Used
+
 LSI
 :    large-scale integration
+
 LSM
 :    Linux Security Modules
+
 LWP
 :    Light Weight Process
+
 MAC
 :    Medium Access Control
+
 MTU
 :    maximum transmission units
+
 NAPI
 :    network API
+
 NFS
 :    Network File System
+
 NGPT
 :    Next Generation POSIX Thread
+
 NIC
 :    Network Information Center
+
 NLWP
 :    number of light weight processes
+
 NOOP
 :    no operation
+
 NPTL
 :    Native POSIX Thread Library
+
 NUMA
 :    Non-Uniform Memory Access
+
 OSI
 :    open systems interconnection
+
 PC
 :    path control
+
 PCI
 :    Peripheral Component Interconnect
+
 PID
 :    process ID
+
 POSIX
 :    Portable Operating System Interface for
+
 Computer
 :    Environments
+
 PPID
 :    parent process ID
+
 PRI
 :    primary rate interface
+
 RAID
 :    Redundant Array of Independent Disks
+
 RAM
 :    random access memory
+
 RFC
 :    Request for Comments
+
 RPM
 :    Redhat Package Manager
+
 RSS
 :    rich site summary
+
 SACK
 :    selective acknowledgment
+
 SATA
 :    Serial ATA
+
 SCSI
 :    Small Computer System Interface
+
 SMP
 :    symmetric multiprocessor
+
 SMT
 :    symmetric multithreading
+
 SMTP
 :    Simple Mail Transport Protocol
+
 SUSE
 :    Software Und System Entwicklung
+
 SWAT
 :    Samba Web Administration Tool
-:::
-::::::::::::::
 
 SYN
 :    synchronization character
+
 TCQ
 :    Tagged Command Queuing
+
 TFTP
 :    Trivial File Transfer Protocol
+
 TLB
 :    Translation Lookaside Buffer
+
 TSO
 :    TCP segmentation offload
+
 TTY
 :    teletypewriter
+
 UDP
 :    User Datagram Protocol
+
 UID
 :    unique identifier
+
 UP
 :    uniprocessor
+
 USB
 :    Universal Serial Bus
+
 VFS
 :    Virtual Files System
+
 VM
 :    virtual machine
+
 XFS
 :    eXtended File System
+
 XML
 :    Extensible Markup Language
+
 YaST
 :    yet another setup tool
 
