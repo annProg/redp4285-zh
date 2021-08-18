@@ -7,12 +7,14 @@ MAINFONT ?= -V mainfont:Source\ Serif\ Pro
 SANSFONT ?= -V sansfont:Source\ Sans\ Pro
 CODEFONT ?= -V monofont:Source\ Code\ Pro
 
-all: ctexbook elegantbook
+all: ctexbook elegantbook epub
 
 ctexbook:
 	panbook book -V cover:$(COVER) -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK) $(MAINFONT) $(SANSFONT) $(CODEFONT)
 elegantbook:
 	panbook book --style=elegantbook -V cover:images/cover.jpg -V logo:images/logo.png -V device:$(DEVICE) $(DEBUG) $(HIGHLIGHT) $(CJK) $(MAINFONT) $(SANSFONT) $(CODEFONT)
-
+epub:
+	panbook book --style=epub $(DEBUG) $(HIGHLIGHT)
+	ls -l build/
 clean:
 	panbook clean	

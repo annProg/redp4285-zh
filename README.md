@@ -5,6 +5,7 @@
 下载：
 - https://panbook.annhe.net/pub/redp4285-zh-book-ctexbook-pc.pdf
 - https://panbook.annhe.net/pub/redp4285-zh-book-elegantbook-pc.pdf
+- https://panbook.annhe.net/pub/redp4285-zh-book-epub-pc.epub
 
 原版：
 - https://lenovopress.com/redp4285.pdf
