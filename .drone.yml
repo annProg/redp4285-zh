@@ -20,3 +20,13 @@ steps:
     dest: 172.17.0.1::panbook
   depends_on:
   - build
+
+- name: publish-epub
+  image: annprog/rsync:latest
+  pull: if-not-exists
+  settings:
+    src: build/*.epub
+    dest: 172.17.0.1::panbook
+  depends_on:
+  - build
+    
