@@ -6,20 +6,24 @@ workspace:
   path: redp4285-zh
 
 steps:
-- name: build
+- name: build-pdf
   image: ann17/panbook:latest
   pull: if-not-exists
   commands:
-  - make
- 
-- name: publish
+  - make pdf
+- name: build-epub
+  image: ann17/panbook:latest
+  pull: if-not-exists
+  commands:
+  - make epub
+- name: publish-pdf
   image: annprog/rsync:latest
   pull: if-not-exists
   settings:
     src: build/*.pdf
     dest: 172.17.0.1::panbook
   depends_on:
-  - build
+  - build-pdf
 
 - name: publish-epub
   image: annprog/rsync:latest
@@ -28,5 +32,5 @@ steps:
     src: build/*.epub
     dest: 172.17.0.1::panbook
   depends_on:
-  - build
+  - build-epub
     

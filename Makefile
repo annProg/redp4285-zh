@@ -7,6 +7,7 @@ MAINFONT ?= -V mainfont:Source\ Serif\ Pro
 SANSFONT ?= -V sansfont:Source\ Sans\ Pro
 CODEFONT ?= -V monofont:Source\ Code\ Pro
 
+pdf: ctexbook elegantbook
 all: ctexbook elegantbook epub
 
 ctexbook:
